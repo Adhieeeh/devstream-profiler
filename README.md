@@ -5,7 +5,7 @@ DevStream is a real-time cluster telemetry profiling dashboard engineered using 
 
 ## Preview
 ------------------------------------------------------------------------------------------------------
-![](dd)
+![](ddev)
 
 ##  Technical Architecture Overview
 -----------------------------------------------------------------------------------------------------
