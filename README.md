@@ -4,7 +4,7 @@
 DevStream is a real-time cluster telemetry profiling dashboard engineered using React components. It processes data variables down a sliding timeline memory buffer, applying dynamic mathematical plotting conversions straight into lightweight, inline vector paths (`<svg>`) using pure pixel calculation mapping logic loops without relying on bulky external graphing engines.
 
 ## Preview
-
+------------------------------------------------------------------------------------------------------
 
 ##  Technical Architecture Overview
 *  **Sliding Time-Window Constraints:** Controls time-series array collections via automated runtime queue cutoffs to insulate memory states from long-running execution bloat.
