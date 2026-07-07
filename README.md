@@ -1,16 +1,11 @@
-# React + Vite
+#  DevStream — Asynchronous Time-Series Telemetry Stream & SVG Profiler (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DevStream is a real-time cluster telemetry profiling dashboard engineered using React components. It processes data variables down a sliding timeline memory buffer, applying dynamic mathematical plotting conversions straight into lightweight, inline vector paths (`<svg>`) using pure pixel calculation mapping logic loops without relying on bulky external graphing engines.
 
-Currently, two official plugins are available:
+##  Technical Architecture Overview
+*  **Sliding Time-Window Constraints:** Controls time-series array collections via automated runtime queue cutoffs to insulate memory states from long-running execution bloat.
+*  **Inline Functional SVG Pathing:** Computes exact line coordinates dynamically on the fly within render loops, converting 8-bit metric scalars directly into native geometric `polyline` points.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Running Instructions
+1. Download package targets: `npm install`
+2. Launch profiling workspace HUD: `npm run dev`
