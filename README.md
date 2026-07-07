@@ -1,5 +1,5 @@
 #  DevStream — Asynchronous Time-Series Telemetry Stream & SVG Profiler (React)
-
+-------------------------------------------------------------------------------------------------------
 
 DevStream is a real-time cluster telemetry profiling dashboard engineered using React components. It processes data variables down a sliding timeline memory buffer, applying dynamic mathematical plotting conversions straight into lightweight, inline vector paths (`<svg>`) using pure pixel calculation mapping logic loops without relying on bulky external graphing engines.
 
