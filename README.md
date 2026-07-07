@@ -14,5 +14,7 @@ DevStream is a real-time cluster telemetry profiling dashboard engineered using 
 *  **Inline Functional SVG Pathing:** Computes exact line coordinates dynamically on the fly within render loops, converting 8-bit metric scalars directly into native geometric `polyline` points.
 
 ##  Running Instructions
+
+
 1. Download package targets: `npm install`
 2. Launch profiling workspace HUD: `npm run dev`
